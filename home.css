@@ -306,7 +306,25 @@ span {
     background-size:880px;
     overflow: hidden;
 }
-
+#nav
+    {
+        background-color: red;
+    }
+    #m1 a
+    {
+        animation: txta .9s ease-in;
+    }
+    @keyframes txta
+    {
+        from
+        {
+            opacity: 0%;
+        }
+        to
+        {
+            opacity: 100%;
+        }
+    }
     .b-menu line1,
     .b-menu line2,
     .b-menu line3 {
