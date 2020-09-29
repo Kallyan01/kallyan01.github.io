@@ -10,7 +10,7 @@ body {
 }
 
 .intro {
-    background-image: url(bag2%20.webp);
+    background-image: url(images/bag2%20.webp);
     height: 600px;
     width: 100%;
     background-attachment: fixed;
@@ -299,7 +299,7 @@ span {
         box-sizing: border-box;
     }
     .intro {
-    background-image: url(bag.jpg);
+    background-image: url(images/bag.jpg);
     height: 600px;
     width: 100%;
     background-attachment: fixed;
