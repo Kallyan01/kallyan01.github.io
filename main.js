@@ -1,5 +1,5 @@
 function openmenu() {
-    document.getElementById("nav").style.height = '50vh';
+    document.getElementById("nav").style.height = '60vh';
     document.getElementById("nav").style.transition = '.8s ease-in';
     document.getElementById("bm").style.display = 'none';
     document.getElementById("cm").style.opacity = '100%';
