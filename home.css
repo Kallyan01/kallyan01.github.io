@@ -10,7 +10,7 @@ body {
 }
 
 .intro {
-    background-image: url(images/bag2%20.webp);
+    background-image: url(images/bag.jpg);
     height: 600px;
     width: 100%;
     background-attachment: fixed;
@@ -298,12 +298,12 @@ span {
 
 @media screen and (max-width: 760px) {
     .intro {
-    background-image: url(images/bag.jpg);
+    background-image: url(images/bag3%20.jpg);
     height: 600px;
     width: 100%;
     background-attachment: fixed;
     position:;
-    background-size: cover;
+    background-size:880px;
     overflow: hidden;
 }
 
