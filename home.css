@@ -17,6 +17,7 @@ body {
     position: ;
     background-size: cover;
     overflow: hidden;
+    opacity: 90%;
 }
 
 .intro-text {
