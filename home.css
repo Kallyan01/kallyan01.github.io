@@ -14,7 +14,7 @@ body {
     height: 600px;
     width: 100%;
     background-attachment: fixed;
-    position:;
+    position: ;
     background-size: cover;
     overflow: hidden;
 }
@@ -27,16 +27,16 @@ body {
 
 .content {
     position: relative;
-     margin: 10px;
+    margin: 10px;
     padding: 30px;
 }
-.content li
-{
+
+.content li {
     list-style: none;
     margin-bottom: 50vh;
 }
-.skill li
-{
+
+.skill li {
     display: inline-block;
     position: relative;
     top: -150px;
@@ -46,60 +46,61 @@ body {
     border-radius: 18px;
     border: 2px solid black;
 }
-.skill li:nth-child(1):hover
-{
-    background:#283593;
+
+.skill li:nth-child(1):hover {
+    background: #283593;
     transition: .3s ease;
-    font-family:cursive;
+    font-family: cursive;
     color: white;
     padding: 20px;
 }
-.skill li:nth-child(2):hover
-{
-    background:#fff;
+
+.skill li:nth-child(2):hover {
+    background: #fff;
     transition: .3s ease;
-    font-family:cursive;
+    font-family: cursive;
     color: red;
     padding: 20px;
 }
-.skill li:nth-child(3):hover
-{
-    background:#fff;
+
+.skill li:nth-child(3):hover {
+    background: #fff;
     transition: .3s ease;
-    font-family:fantasy;
+    font-family: fantasy;
     color: #283593;
     padding: 20px;
 }
-.skill li:nth-child(4):hover
-{
-    background:#3f51b5;
+
+.skill li:nth-child(4):hover {
+    background: #3f51b5;
     transition: .3s ease;
-    font-family:cursive;
+    font-family: cursive;
     color: white;
     padding: 20px;
 }
-.skill li:nth-child(5):hover
-{
-    background:#e64a19;
+
+.skill li:nth-child(5):hover {
+    background: #e64a19;
     transition: .3s ease;
-    font-family:fantasy;
+    font-family: fantasy;
     color: #fff;
     padding: 20px;
 }
-.skill li:nth-child(6):hover
-{
-    background:#283593;
+
+.skill li:nth-child(6):hover {
+    background: #283593;
     transition: .3s ease;
-    font-family:cursive;
+    font-family: cursive;
     color: white;
     padding: 20px;
 }
-.content h1
-{
+
+.content h1 {
     border-bottom-right-radius: 60px;
     border-bottom: 5px solid orangered;
     width: 200px;
 }
+
 .intro-text h2 {
     margin-bottom: 15px;
     font-size: 65px;
@@ -148,28 +149,31 @@ body {
 .b-menu #line1 {
     animation: close 0.8s ease;
 }
+
 .b-menu #line2 {
     animation: close2 0.8s ease;
 }
-.close-btn
-{
+
+.close-btn {
     position: absolute;
     opacity: 0%;
     transition: transform .8s ease-in;
 }
-.close-btn .line1 ,.close-btn .line3
-{
+
+.close-btn .line1,
+.close-btn .line3 {
     background-color: yellow;
-        height: 3px;
-        margin: -2px;
-        left: 26px;
-        top: -30px;
-        width: 25px;
+    height: 3px;
+    margin: -2px;
+    left: 26px;
+    top: -30px;
+    width: 25px;
     display: block;
-        position: relative;
-        cursor: pointer;
-        z-index: 2;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
 }
+
 /*@keyframes close1
 {
     from
@@ -192,19 +196,18 @@ body {
         transform: rotateZ(-45deg);
     }
 }*/
-.close-btn .line1 
-{
-    transform:rotateZ(45deg);
+.close-btn .line1 {
+    transform: rotateZ(45deg);
     animation: close1 .5s ease-in;
 }
-.close-btn .line3 
-{
-    transform:rotateZ(-45deg); 
+
+.close-btn .line3 {
+    transform: rotateZ(-45deg);
     animation: close2 .5s ease-in;
 }
 
 .nav-bar {
-    height:10vh;
+    height: 10vh;
     position: fixed;
     background-color: #0009;
     width: 100%;
@@ -238,8 +241,8 @@ body {
     margin: 10px;
     padding: 5px;
 }
-#m1
-{
+
+#m1 {
     z-index: 1;
 }
 
@@ -261,7 +264,7 @@ span {
     height: auto;
     top: 590px;
     overflow: hidden;
-   
+
 }
 
 .f-menu {
@@ -291,40 +294,43 @@ span {
     color: white;
     margin: 10px;
 }
-@media screen and (max-width: 1080px)
-{
-    
-}
+
+@media screen and (max-width: 1080px) {}
 
 @media screen and (max-width: 760px) {
     .intro {
-    background-image: url(images/bag3%20.jpg);
-    height: 600px;
-    width: 100%;
-    background-attachment: fixed;
-    position:;
-    background-size:880px;
-    overflow: hidden;
-}
-#nav
+        background-image: url(images/bag3%20.jpg);
+        height: 600px;
+        width: 100%;
+        background-attachment: fixed;
+        position: ;
+        background-size: 880px;
+        overflow: hidden;
+    }
+    .intro-text .type
     {
+        font-size: 45px;
+        overflow: hidden;
+    }
+
+    #nav {
         background-color: red;
     }
-    #m1 a
-    {
+
+    #m1 a {
         animation: txta .9s ease-in;
     }
-    @keyframes txta
-    {
-        from
-        {
+
+    @keyframes txta {
+        from {
             opacity: 0%;
         }
-        to
-        {
+
+        to {
             opacity: 100%;
         }
     }
+
     .b-menu line1,
     .b-menu line2,
     .b-menu line3 {
