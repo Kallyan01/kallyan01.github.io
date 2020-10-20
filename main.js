@@ -4,7 +4,6 @@ function openmenu() {
     document.getElementById("bm").style.display = 'none';
     document.getElementById("cm").style.opacity = '100%';
     document.getElementById("m1").style.display = '';
-     document.getElementById("bdy").style.overflow = 'hidden';
 }
 
 function closemenu() {
@@ -12,7 +11,6 @@ function closemenu() {
     document.getElementById("bm").style.display = '';
     document.getElementById("cm").style.opacity = '0%';
     document.getElementById("m1").style.display = 'none';
-    document.getElementById("bdy").style.overflow = '';
 }
 
 function loaddone()
