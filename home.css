@@ -131,7 +131,10 @@ body {
     color: white;
     margin-top: 250px;
 }
-
+.b-menu
+{
+    cursor: pointer;
+}
 .b-menu #line1,
 .b-menu #line2,
 .b-menu #line3 {
@@ -143,7 +146,6 @@ body {
     top: -40px;
     width: 25px;
     position: relative;
-    cursor: pointer;
     z-index: 1;
 }
 
@@ -209,7 +211,7 @@ body {
 
 .nav-bar {
     height: 10vh;
-    position: fixed;
+    position: absolute;
     background-color: #0009;
     width: 100%;
     display: inline-block;
@@ -331,7 +333,10 @@ span {
             opacity: 100%;
         }
     }
-
+    .b-menu 
+    {
+    cursor: pointer;
+    }
     .b-menu line1,
     .b-menu line2,
     .b-menu line3 {
@@ -343,7 +348,6 @@ span {
         top: -40px;
         width: 25px;
         position: relative;
-        cursor: pointer;
         z-index: 2;
     }
 
