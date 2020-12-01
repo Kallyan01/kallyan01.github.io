@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body
+        {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+        }
+        #table
+        {
+            color: black;
+            position: absolute;
+            width: 80%;
+            height: 80%;
+            margin-top: 70px ;
+            border-radius: 8px;
+            border-style:dotted ;
+            border:5px black;
+        }
+        #table tr td
+        {
+            text-align: center;
+        }
+        .won
+        {
+            color: green;
+        }
+        .lost
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" id="table">
+        <th colspan="4">Lauda King</th>
+        <tr><th>Name</th><th>Won</th><th>Lost</th><th>Point</th></tr>
+        <tr><th>1.Kallyan</td><td class="won">0</td><td class="lost">0</td><td>0</td></tr>
+        <tr><th>2.Aranya</td><td class="won">0</td><td class="lost">0</td><td>0</td></tr>
+        <tr><th>3.Indra</td><td class="won">0</td><td class="lost">0</td><td>0</td></tr>
+        <tr><th>4.Bishal</td><td class="won">0</td><td class="lost">0</td><td>0</td></tr>
+    </table>
+</body>
+</html>
