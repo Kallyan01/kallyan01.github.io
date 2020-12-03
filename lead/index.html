@@ -45,12 +45,39 @@
             position: absolute;
             top: 95%;
         }
+        .load
+        {
+            background-color: rgb(23, 235, 224);
+            color: white;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+            text-align: center;
+            overflow: hidden;
+            overflow-y: hidden;
+         }
+         .load h1,h2,h3
+         {
+            margin-top: 150px;
+         }
     </style>
+    <script>
+        function load()
+        {
+            document.getElementById("bdy").style = "display:none";
+        }
+    </script>
 </head>
-<body>
+<body onload="load()">
+    <div class="load">
+        <h1>Welcome</h1>
+        <h2>To</h2>
+        <h3>AptiHunter</h3>
+    </div>
     <table border="1" id="table">
-        <th colspan="5">Ludo King</th>
-        <tr><th>Name</th><th>Matches</th><th>Won</th><th>Lost</th><th>Point</th></tr>
+        <th colspan="5">AptiHunter</th>
+        <tr><th>Name</th><th>Attempts</th><th>Won</th><th>Lost</th><th>Point</th></tr>
         <tr><th>1. Kallyan</td><td>21</td><td class="won">10</td><td class="lost">11</td><td>45</td></tr>
         <tr><th>2. Bishal</td><td>24</td><td class="won">9</td><td class="lost">15</td><td>15</td></tr>
         <tr><th>3. Indra</td><td>30</td><td class="won">5</td><td class="lost">25</td><td>-75</td></tr>
