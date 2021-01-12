@@ -1,0 +1,41 @@
+    .post-img img {
+        width: 1250px;
+        padding-left: 110px;
+    }
+    
+    .post-img {
+        height: 475px;
+        overflow: hidden;
+        margin-top: 9px;
+    }
+    
+    .blog-post-content {
+        background-color: springgreen;
+    }
+    
+    .blog-post-content h1 {
+        text-align: center;
+    }
+    
+    .row {
+        display: flex;
+    }
+    
+    more-post {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home-articles-blogpost {
+        /*height: 455px;*/
+        /* background-color: powderblue;*/
+        padding-top: 12px;
+        position: relative;
+    }
+    
+    .blogpost-meta {
+        display: flex;
+        background-color: red;
+        justify-content: space-between;
+    }

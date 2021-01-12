@@ -1,0 +1,32 @@
+.contact-content {
+    display: flex;
+    /*  background-color: salmon;*/
+    /* text-align: center;*/
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    height: 400px;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.contact-content::after {
+    content: '';
+    background-image: url('../img/contactmy.png');
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: inherit;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.footer {
+    height: 50px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}

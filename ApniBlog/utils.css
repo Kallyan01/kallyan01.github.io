@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Texturina&display=swap');
+ :root {
+    --main-bg-colour: rgb(134, 10, 26);
+    --font1: 'Texturina', serif;
+    --font2: 'Courgette', cursive;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn:hover {
+    color: aqua;
+    background: var(--main-bg-colour);
+}
+
+.btn {
+    padding: 8px 5px;
+    border: 3px solid brown;
+    border-radius: 0.5px;
+    margin: 0 13px;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-input {
+    padding: 0px 5px;
+    padding-top: 2px;
+    font-size: 16px;
+    border: 3px solid goldenrod;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+
+.form-box input,
+textarea {
+    width: 34vw;
+    padding: 10px 6px;
+    margin: 7px;
+    border-color: burlywood;
+    border-style: inset;
+    border-width: medium;
+    font-family: var(--font2);
+}
+
+
+}

@@ -1,0 +1,22 @@
+.about-articles {
+    display: flex;
+    background-color: salmon;
+    /* text-align: center;*/
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    height: 400px;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.about-articles::after {
+    content: '';
+    background-image: url('../img/contactmy.png');
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: inherit;
+    opacity: 0.5;
+    z-index: -1;
+}
