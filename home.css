@@ -129,6 +129,7 @@ body {
     z-index: 24;
     display: flex;
     justify-content: center;
+    overflow-y: hidden;
 }
 .loader
 {

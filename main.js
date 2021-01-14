@@ -17,5 +17,6 @@ function loaddone()
 {
    document.getElementById("load1").style.height = '0%';
     document.getElementById("load1").style.display = 'none';  
-document.getElementById("m1").style.display = 'none';
+    document.getElementById("load1").style.overflow = 'scroll';  
+    document.getElementById("m1").style.display = 'none';
 }
