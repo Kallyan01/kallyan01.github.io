@@ -123,11 +123,19 @@ body {
 
 #load1 {
     position: absolute;
-    background-color: #000;
+    background:black;
     height: 100%;
     width: 100%;
-    text-align: center;
     z-index: 24;
+    display: flex;
+    justify-content: center;
+}
+.loader
+{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+   margin-top: 200px;
 }
 
 #load1 span {
@@ -330,6 +338,10 @@ span {
 
     #m1 a {
         animation: txta .9s ease-in;
+    }
+    .LI-profile-badge
+    {
+        display:none;
     }
 
     @keyframes txta {
