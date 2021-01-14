@@ -25,6 +25,13 @@ body {
     color: white;
     
 }
+.intro .LI-profile-badge
+{
+    position: absolute;
+    right: 90px;
+    padding: 10px;
+    margin-top:150px;
+}
 
 .content {
     position: relative;
@@ -211,13 +218,14 @@ body {
 
 .nav-bar {
     height: 10vh;
-    position: absolute;
-    background-color: #0009;
+    position: fixed;
+    background-color:rgba(34, 31, 31, 0.212);
     width: 100%;
     display: inline-block;
     z-index: 10;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
-
 .nav-bar li {
     list-style: none;
     display: block;
