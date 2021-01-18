@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap');
 * {
     margin: auto;
     margin: 0px;
     box-sizing: border-box;
-
+    overflow: hidden;
 }
 
 body {
     background-color: none;
+    font-family: 'Texturina', serif;
 }
 
 .intro {
@@ -39,86 +41,33 @@ body {
     padding: 30px;
 }
 
-.content li {
-    list-style: none;
-    margin-bottom: 50vh;
-}
-
-.skill li {
-    display: inline-block;
-    position: relative;
-    top: -150px;
-    margin: 5px;
-    font-size: 25px;
-    padding: 15px;
-    border-radius: 18px;
-    border: 2px solid black;
-}
-
-.skill li:nth-child(1):hover {
-    background: #283593;
-    transition: .3s ease;
-    font-family: cursive;
-    color: white;
-    padding: 20px;
-}
-
-.skill li:nth-child(2):hover {
-    background: #fff;
-    transition: .3s ease;
-    font-family: cursive;
-    color: red;
-    padding: 20px;
-}
-
-.skill li:nth-child(3):hover {
-    background: #fff;
-    transition: .3s ease;
-    font-family: fantasy;
-    color: #283593;
-    padding: 20px;
-}
-
-.skill li:nth-child(4):hover {
-    background: #3f51b5;
-    transition: .3s ease;
-    font-family: cursive;
-    color: white;
-    padding: 20px;
-}
-
-.skill li:nth-child(5):hover {
-    background: #e64a19;
-    transition: .3s ease;
-    font-family: fantasy;
-    color: #fff;
-    padding: 20px;
-}
-
-.skill li:nth-child(6):hover {
-    background: #283593;
-    transition: .3s ease;
-    font-family: cursive;
-    color: white;
-    padding: 20px;
-}
-
-.content h1 {
-    border-bottom-right-radius: 60px;
-    border-bottom: 5px solid orangered;
-    width: 200px;
-}
-
 .intro-text h2 {
     margin-bottom: 15px;
     font-size: 65px;
 }
+.cline
+{
+    background-color: red;
+    height: 170px;
+    width: 5px;
+    position: absolute;
+    top: 30%;
+    left: 9%;
+}
+.cline .dline
+{
+    background-color:black;
+    height: 130px;
+    width: 630px;
+    position: absolute;
+    top: 13%;
+    left: 90%;
+}
 
 .intro-text p {
-    width: 50%;
     font-size: 20px;
     text-align: justify;
-    color: yellow;
+    color: white;
 }
 
 #load1 {
