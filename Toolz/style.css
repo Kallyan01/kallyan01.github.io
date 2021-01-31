@@ -202,6 +202,20 @@ main .line
   transition: 0.8s;
   
 }
+#box1,
+#box2,
+#box3,
+#box4
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#box2,
+#box3
+{
+    margin-left: 10px;
+}
 .lnd-tool #box1:hover,#box2:hover,#box3:hover,#box4:hover
 {
 transform: scale(1.1);
