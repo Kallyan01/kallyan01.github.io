@@ -133,6 +133,7 @@ button.pcr-button::before {
     content: '';
     position: absolute;
     top: 1px;
+    -moz-top: 5px;
     left: 88px;
     width: 27px;
     height: 27px;
