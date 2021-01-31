@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="temp.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="left">
+                <img class="ico" src="img/icon3.png">
+                <div class="logotxt"></div>
+                <div class="navbtn" onclick="openmenu()" id="menu">
+                    <div class="line3"></div>
+                    <div class="line4"></div>
+                    <div class="line5"></div>
+                </div>
+            </div>
+
+            <div class="navbar" id="nav-bar">
+                <li><a class="active" href="#" data-after="Home">Home</a></li>
+                <li><a href="#" >Blog</a></li>
+                <li><a  href="contactus.html">Contact Us</a></li>
+                <div class="dropdown">
+                <li><a href="#" >Our Tools</a></li>
+                      <i class="fa fa-caret-down"></i>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                      <a href="#">Link 4</a>
+                    </div>
+                  </div>        
+                <div id="closeico" onclick="closemenu()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

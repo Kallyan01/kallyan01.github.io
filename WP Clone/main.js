@@ -1,4 +1,0 @@
-function changeColor()
-{
-    var currentColor=
-}
