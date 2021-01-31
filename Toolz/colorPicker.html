@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/>
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="colorPicker.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -24,15 +25,14 @@
 
             <div class="navbar" id="nav-bar">
                 <li><a class="active" href="index.html" data-after="Home">Home</a></li>
-                <li><a  href="contactus.html">Contact Us</a></li>
                 <div class="dropdown">
-                <li><a href="#" >Our Tools</a></li>
+                <li><a href="javascript:void(0)" id="stop">Our Tools</a></li>
                       <i class="fa fa-caret-down"></i>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" id="dropped">
                       <a href="colorPicker.html">Color Picker</a>
                       <a href="shadow.html">Box Shadow generator</a>
                       <a href="textShadow.html">Text Shadow generator</a>
-                      <a href="#">Templates</a>
+                      <a href="temp.html">Templates</a>
                     </div>
                   </div>        
                 <div id="closeico" onclick="closemenu()">
@@ -68,7 +68,7 @@
 
     <script src="https://kit.fontawesome.com/a35fb36c6a.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
-    <script src="script.js"></script>
+    
     <script src="colorPicker.js"></script>
     
 </body>
