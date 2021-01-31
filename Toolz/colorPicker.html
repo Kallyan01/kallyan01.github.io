@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <Title>
-        ToolZ
-    </Title>
-    <meta name="description" content="">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width">
-    <script type="text/javascript" src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a35fb36c6a.js" crossorigin="anonymous"></script>
-  </head>
-<body id="bdy" onload="loading()">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="colorPicker.css">
+    <title>Document</title>
+</head>
+<body>
     <header>
         <div class="nav">
             <div class="left">
-                <img class="ico" src="img/icon3.png">
+                <a href="index.html"><img class="ico" src="img/icon3.png"></a>
                 <div class="logotxt"></div>
                 <div class="navbtn" onclick="openmenu()" id="menu">
                     <div class="line3"></div>
@@ -46,30 +42,33 @@
             </div>
         </div>
     </header>
-    <main>
-      <div class="lnd">
-      <div class="lnd-txt">
-        <div class="line"></div>
-        <h2>Our<span> Tools</span> </h2>
-      </div>
-      <div class="lnd-tool">
-        <div id="box1">A</div>
-        <div id="box2">B</div>
-        <div id="box3">C</div>
-        <div id="box4">D</div>
-      </div>
+    <div>
+        <div id="total">
+        <div class="title">Color Picker</div>
+        <div class="glassEffect">
+            <span class="chs">Choose a colour : </span>
+        <div class="center">
+            <div class="pickr-container">
+                <div class="color-picker" id="color"></div>
+            </div>
+
+
+        </div>
+        <div id="box">
+            <div id="rgb"> <u class="textSh"> RGB value  </u> 
+                <span id="rgbaOut">rgba(32, 171, 185, 1)</span>
+            </div>
+            <div id="hex"><u class="textSh"> Hex value </u> <span id="hexVal">#20ABB9</span></div>
+        </div>
+        </div>
+        <div class="right-bar"></div>
+        <div class="left-bar"></div>
+        </div>
     </div>
-    </main>
-    <footer>
-        <img class="ftrico" src="">
-        <div class="cpyrt"><b>Copyright &copy; 2020 by ToolZ</b></div>
-        <ul class="socioico" id="sico">
-           <li id="sico1"><a href="#"><i class="fab fa-facebook"></i> </a> </li>
-            <li id="sico2"><a href="#"><i class="fab fa-twitter"></i> </a> </li>
-            <li id="sico3"><a href="#"><i class="fab fa-whatsapp"></i> </a> </li>
-            <li id="sico4"><a href="#"><i class="fab fa-instagram"></i></a> </li>
-        </ul>
-    </footer>
+
+    <script src="https://kit.fontawesome.com/a35fb36c6a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    <script src="colorPicker.js"></script>
     
 </body>
 </html>

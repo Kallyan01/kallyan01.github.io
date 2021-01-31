@@ -6,22 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-}
-
-#load {
-    position: fixed;
-    top: 8px;
-    left: 8px;
-    margin: 0px 10px 0px -10px;
-    justify-content: center;
-    background-color: #0009;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    display: flex;
-    color: white;
-    overflow-y: hidden;
-    animation: h4anim 2s ease-in;
+    overflow-x: hidden;
 }
 .navbar {
     position: absolute;
@@ -47,7 +32,6 @@ body {
 .nav li a {
     color: yellow;
     text-decoration: none;
-    font-family: ;
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
@@ -103,6 +87,7 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    top: 70px;
   }
   
   .dropdown-content a {
@@ -121,8 +106,7 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
-.left .ico {
+  .left .ico {
     height:120px;
     width: 120px;
     position: absolute;
@@ -152,109 +136,6 @@ body {
   margin: -25px 0px 0px 5px;
 }
 
-main .lnd
-{
-  background-color: black;
-  width: 100%;
-  position: absolute;
-  height: 600px;
-  z-index: -1;
-}
-main .line
-{
-  background-color: yellow;
-  height: 4px;
-  width: 70px;
-  margin: 295px 0px 0px 30px;
-  position: absolute;
-  transform: rotate(90deg);
-}
-.lnd-txt h2 
-{
-  position: absolute;
- color:white;
- font-size: 50px;
- margin: 270px 0px 0px 80px;
-}
-.lnd-txt h2  span
-{
-  color: red;
-}
-.lnd-tool
-{
-  display: flex;
-  position: absolute;
-  padding: 10px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  left: 390px;
-  top: 200px;
-  margin: 10px;
-  
-}
-.lnd-tool #box1,#box2,#box3,#box4
-{
-  color: white;
-  margin: 10px;
-  height: 200px;
-  width: 200px;
-  border-radius: 10px;
-  border: 2px solid red;
-  transition: 0.8s;
-  
-}
-.lnd-tool #box1:hover,#box2:hover,#box3:hover,#box4:hover
-{
-transform: scale(1.1);
-}
-footer {
-    background-color: #000;
-    height: 15vh;
-    width: 100%;
-    position:absolute;
-    top: 100%;
-}
-footer .socioico
-{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    justify-content: center;
-    margin-left: 620px;
-    margin-top: -20px;
-}
-.socioico li
-{
-    list-style: none;
-}
-footer .socioico i
-{
-    color: white;
-    font-size: 20px;
-    margin: 5px;
-}
-
-.cpyrt {
-    width: 100%;
-    color: orangered;
-    font-family: sans-serif;
-    text-align: center;
-    position: relative;
-    top: 55%;
-    height: 40px;
-    font-family: 'PT Serif Caption', serif;
-    font-size: 15px;
-}
-
-.ftrico {
-    height: 30vh;
-    position: relative;
-    top: -30px;
-    margin: 10px;
-    display: none;
-
-}
-
 
 @media screen and (max-width: 1080px) {
     body {
@@ -265,7 +146,6 @@ footer .socioico i
 
 
     .nav li {
-        margin: ;
         position: relative;
     }
 
@@ -322,7 +202,6 @@ footer .socioico i
     .nav {
         position: fixed;
         width:100%;
-        display: ;
         z-index: 10;
     }
 
@@ -418,7 +297,6 @@ footer .socioico i
         background-color: black;
         height: 2px;
         width: 30px;
-        display: ;
     }
 
     .line3,
@@ -427,7 +305,6 @@ footer .socioico i
         background-color: white;
         height: 3px;
         width: 26px;
-        display: ;
         margin: 5px;
         cursor: pointer;
     }
@@ -471,7 +348,6 @@ footer .socioico i
         background: none;
         width: 0px;
         height: 0px;
-        color: ;
         position: absolute;
         left: 15px;
     }
