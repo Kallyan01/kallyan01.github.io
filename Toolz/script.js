@@ -4,6 +4,7 @@ function openmenu() {
     document.getElementById("nav-bar").style.display = "block";
     document.getElementById("sico").style.display = "flex";
     document.getElementById("bdy").style.overflow = "hidden";
+
 }
 
 function closemenu() {
@@ -16,4 +17,3 @@ function closemenu() {
 function loading() {
     document.getElementById("load").style.display = "none";
 }
-

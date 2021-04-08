@@ -622,6 +622,7 @@ footer .socioico i
         cursor: pointer;
         margin: 5px;
     }
+<<<<<<< HEAD
 }
 @media (max-width: 750px) {
     .dropdown {
@@ -669,4 +670,6 @@ footer .socioico i
 }
 #box4::after {
     content: 'Templates';
+=======
+>>>>>>> parent of ce42cc1 (ad)
 }

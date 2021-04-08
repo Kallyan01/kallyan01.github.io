@@ -132,7 +132,8 @@ button.pcr-button::before {
 .pickr::after {
     content: '';
     position: absolute;
-    top: 2px;
+    top: 1px;
+    -moz-top: 5px;
     left: 88px;
     width: 27px;
     height: 27px;
