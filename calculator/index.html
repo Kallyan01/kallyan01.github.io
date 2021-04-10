@@ -1,22 +1,30 @@
 <html>
-    <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-       
-       
-<form class="form-box">
-    <h1>Simple Interest Calculator</h1>
-        Amount :<input type="number"  id="principal">  <br/>
-        Rate :<input type="range"  id="rate" min="0" max="10">  <br/>
-        No. of Years :<input type="number"  id="years">  <br/>
-        <button onclick="compute()">Compute Interest</button>
-         <span id="result">
-             
-         </span><br>
-       
-    </form>
 
-    </body>
+<head>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-box">
+        <form oninput="val.value = parseFloat(rate.value)">
+           
+           
+           
+            <h1>Simple Interest Calculator</h1>
+            Amount :<input type="number" id="principal" value="1"> <br />
+            Rate :<input type="range" id="rate" min="0" max="10" step=".1" value="1">
+            <output for="rate" name="val"></output> <br />
+            No. of Years :<input type="number" id="years" value="1"> <br />
+
+
+
+        </form>
+        <button onclick="calc()">Compute Interest</button>
+        <h3 id="result">
+
+        </h3><br>
+    </div>
+</body>
+
 </html>
