@@ -10,5 +10,8 @@ function calc() {
   var curryr = 2021;
    var tyear = parseInt(curryr)+parseInt(year);
   console.log(tyear);
-  document.getElementById("result").innerHTML = "If you deposit\t" + ammo + "\tat an interest rate of\t" + intrate + "%" + "\tyou will receive an ammount of\t" + total + "\tin the year\t" + tyear;
+  document.getElementById("am").innerHTML =  ammo ;
+  document.getElementById("ir").innerHTML =  intrate ;
+  document.getElementById("rl").innerHTML =  total;
+  document.getElementById("yr").innerHTML =  tyear;
 }
