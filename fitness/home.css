@@ -131,7 +131,8 @@ body {
 .navbar {
     position: absolute;
     top: 1px;
-    right: 20px
+    right: 20px;
+    margin-right: 120px;
 }
 
 .nav {
@@ -187,6 +188,7 @@ body {
 {
     float: right;
     margin: 20px;
+    z-index: 10;
 }
 .reg button
 {
@@ -242,9 +244,9 @@ body {
 }
 
 .wave {
-    position: absolute;
+    position: relative;
     transform: rotateX();
-    top: 558px;
+    top: 590px;
     z-index: 1;
 }
 
@@ -607,6 +609,22 @@ span {
         align-content: center;
 
     }
+    .reg
+{
+    float: right;
+    
+}
+.reg button
+{
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 0.1px solid #ffff;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin: 0px;
+}
 
     .intro .socioico {
         display: none;
@@ -819,6 +837,21 @@ span {
     position: relative;
     display: ;
     width: auto;
+}
+.reg
+{
+    float: right;
+    margin: 20px;
+}
+.reg button
+{
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 0.1px solid #ffff;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
 }
 
     .loader-wraper {
@@ -1038,6 +1071,7 @@ span {
         opacity: 0%;
         display:none;
         overflow: hidden;
+        
     }
 
     #closeico {
@@ -1339,6 +1373,21 @@ footer .socioico i
         font-size: 18px;
         margin: 5px;
     }
+    .reg
+{
+    float: right;
+    margin: 20px;
+}
+.reg button
+{
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 0.1px solid #ffff;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
         .cnctme .cont
 {
     position: relative;
