@@ -1,0 +1,1467 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#load {
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    margin: 0px 10px 0px -10px;
+    justify-content: center;
+    background-color: #0009;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    color: white;
+    overflow-y: hidden;
+    animation: h4anim 2s ease-in;
+}
+.cnctme .cont
+{
+    position: relative;
+    display: ;
+    width: auto;
+}
+.cnctme .cont .tel,.cnctme .cont .email
+{
+    margin: 0px 20px;
+}
+.cnctme .cont a
+{
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+}
+.email .fa,.fa
+{
+    font-size: 30px;
+    margin: 20px;
+}
+.pbox .mtext {
+    height: 15vh;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 22px 10px 22px -3px;
+    overflow: hidden;
+}
+
+.pbox .mtext q {
+    margin: 0px 0px 0px 7px;
+    font-size: 27px;
+    font-family: cursive;
+    background-color: yellow;
+    position: relative;
+    top: 25px;
+}
+
+.loader-wraper h4 {
+    top: 240px;
+    position: absolute;
+    font-size: 40px;
+}
+
+@keyframes h4anim {
+    from {
+        height: 100%;
+        background-color: #0009;
+    }
+
+    to {
+        height: 100%;
+        background-color: #0009;
+    }
+}
+
+.popbox {
+    background: ;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    border-radius: 8px;
+    margin: 5px 20px 5px 20px;
+    position: relative;
+    top: -25px
+}
+
+.popbox a {
+    text-decoration: none;
+}
+
+.loader-wraper .loader {
+    animation: mymove 5s infinite;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 290px;
+}
+
+.buy-now {
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px 80px 10px 80px;
+    position: relative;
+    top: 220px;
+    background-color: orangered;
+    border: 2px solid yellow;
+    color: white;
+    width: 80px;
+    outline: none;
+}
+
+.buy-now:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid orangered;
+}
+
+.navbar {
+    position: absolute;
+    top: 1px;
+    right: 20px
+}
+
+.nav {
+    background-color: #0009;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+}
+
+.nav li {
+    font-size: 20px;
+    display: inline-block;
+    margin: 11px;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav li a {
+    color: orangered;
+    text-decoration: none;
+    font-family: ;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav li a:hover {
+    color: white;
+    padding: none;
+    transition: 0.8s;
+    background-color: none;
+    border-radius: none;
+}
+
+.nav .active {
+    color: white;
+}
+
+.nav .left {
+    position: fixed;
+    display: flex;
+    position: absolute;
+    padding: 9px;
+}
+
+.left .ico {
+    height: 8vh;
+    transform: rotateZ(-30deg);
+    transition: 0.5s;
+    animation: mymove 5s infinite;
+}
+.reg
+{
+    float: right;
+    margin: 20px;
+}
+.reg button
+{
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 0.1px solid #ffff;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.left .logotxt {
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+
+.left .sub {
+    color: white;
+    position: absolute;
+    left: 77px;
+    top: 40px;
+    font-size: 11px;
+}
+
+.ico2 {
+    display: none;
+}
+
+.intro {
+    background-color: #000;
+    background-attachment: fixed;
+    height: 122vh;
+    width: 100%;
+    margin: 0px 0px 135px 0px;
+}
+
+.intro .socioico {
+    background: transparent;
+    position: absolute;
+    display: flex;
+    top: 130px;
+    left: -496px;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.wave {
+    position: absolute;
+    transform: rotateX();
+    top: 558px;
+    z-index: 1;
+}
+
+.socioico li {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.socioico a {
+    font-size: 30px;
+    margin: 7px;
+    color: white;
+    padding: 12px;
+    display: inline-block;
+}
+
+ul li:nth-child(1) a:hover {
+    color: #3b5999;
+    font-size: 30px;
+    transition: 0.25s;
+    margin: auto;
+}
+
+ul li:nth-child(2) a:hover {
+    color: #55acee;
+    font-size: 30px;
+    transition: 0.25s;
+    margin: auto;
+}
+
+ul li:nth-child(3) a:hover {
+    color: #25D366;
+    font-size: 30px;
+    transition: 0.25s;
+    margin: auto;
+}
+
+ul li:nth-child(4) a:hover {
+    color: #e4405f;
+    font-size: 30px;
+    transition: 0.25s;
+    margin: auto;
+}
+
+.intro .introimg {
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    opacity: 30%;
+    background-attachment: fixed;
+}
+
+introimg2 {
+    display: none;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    font-size: 80px;
+    text-shadow: 5px;
+    text-transform: uppercase;
+    top: 60%;
+    left: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    width: 168px;
+    font-size: 25px;
+}
+
+.cont {
+    margin: 20px;
+    width: 655px;
+    text-align: justify;
+}
+
+.pbox {
+    margin: auto;
+    align-content: center;
+    position: relative;
+}
+
+.header .line {
+    background: orangered;
+    height: 4px;
+    width: 80px;
+    position: absolute;
+    left: 23px;
+    margin: 6px;
+}
+
+.box1,
+.box3,
+.box2 {
+    padding: 15px;
+    margin: 20px 54px;
+    height: auto;
+    width: 25%;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px 2px black;
+    /*  border: 3px solid orangered;*/
+    background-color: ;
+
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+    box-shadow: -20px 12px 20px 1px black;
+    border-radius: 10px;
+}
+
+.box1 .line01,
+.box2 .line01,
+.box3 .line01 {
+    background-color: red;
+    width: 30%;
+    height: 3px;
+}
+
+.box1 a,
+.box2 a,
+.box3 a {
+    text-decoration: none;
+    margin: 30px;
+    padding: 10px;
+    background-color: orangered;
+    color: #FFFFFF;
+    position: relative;
+    border-radius: 18px;
+
+}
+
+.box1 .cnct,
+.box2 .cnct,
+.box3 .cnct {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.box1 .cnct:hover,
+.box2 .cnct:hover,
+.box3 .cnct:hover {
+    font-size: 18px;
+}
+
+h3 {
+    color: black;
+}
+
+.cmnt {
+    height: 80vh;
+    justify-content: center;
+    align-content: center;
+    background-attachment: fixed;
+}
+
+.feat {
+    color: black;
+    text-transform: capitalize;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.feat li {
+    font-size: 15px;
+    list-style: disc;
+    margin: 10px;
+}
+
+.feat h5 {
+    margin: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.cb {
+    position: relative;
+    top: 15%
+}
+
+.cb1,
+.cb2,
+.cb3,
+.cb4,
+.cb5,
+.cb6 {
+    background-image: linear-gradient(#EE0979, #FF6A00);
+    height: 15vh;
+    width: 30%;
+    display: inline-block;
+    border-radius: 12px;
+    margin: 15px 20px 0px 20px;
+
+}
+
+.cb1 img,
+.cb2 img,
+.cb3 img,
+.cb4 img,
+.cb5 img,
+.cb6 img {
+    height: 50px;
+    border-radius: 45px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+.bagtxt {
+    color: white;
+    font-size: 200px;
+    position: absolute;
+    top: 25%;
+    opacity: 20%;
+    left: 50px;
+}
+
+
+footer {
+    background-color: #000;
+    height: 15vh;
+    width: 100%;
+    position:absolute;
+    top: auto;
+}
+footer .socioico
+{
+    display: flex;
+    float: right;
+    position: absolute;
+    top: -10%;;
+    left: 555px;
+    margin: auto;
+
+}
+footer .socioico i
+{
+    color: white;
+    font-size: 20px
+}
+
+.cpyrt {
+    width: 100%;
+    color: orangered;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 55%;
+    height: 40px;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 15px;
+}
+
+.ftrico {
+    height: 30vh;
+    position: relative;
+    top: -30px;
+    margin: 10px;
+    display: none;
+
+}
+.pgal
+{
+
+    
+}
+
+ .btn {
+    color: white;
+    border: 2px solid orangered;
+    background: orangered;
+    margin: auto;
+    padding: 10px;
+    width: 135px;
+    border-radius: 10px;
+    position: absolute;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 20px;
+    outline: none;
+}
+.pgal .photogal
+{
+    position: relative;
+    background-color:black;
+    width: 100%;
+    height: auto;
+}
+
+@keyframes mymove {
+    from {
+        transform: rotateZ(30deg);
+    }
+
+    to {
+        transform: rotateZ(390deg);
+    }
+}
+
+.nav2 {
+    display: none;
+}
+
+.introimg2 {
+    display: none;
+}
+
+.introimg3 {
+    display: none;
+}
+
+#bug {
+    display: none;
+}
+
+span {
+    color: yellow;
+}
+
+.navbar h6 {
+    font-family: sans-serif;
+    font-size: 15px;
+    position: fixed;
+    top: 80%;
+    display: none;
+}
+
+
+@media screen and (max-width: 1080px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .navbar h6 {
+        font-family: sans-serif;
+        font-size: 15px;
+        position: fixed;
+        top: 80%;
+        display: none;
+    }
+
+    .pbox {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .intro .socioico {
+        display: none;
+    }
+
+    #bug {
+        display: none;
+    }
+
+    .box1.feat li a,
+    .box2.feat li a,
+    .box3.feat li a {
+        font-size: 20px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        display: inline-block;
+        width: 315px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 1px black;
+        margin: 42px -5px 16px 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .introimg {
+        display: none;
+    }
+
+
+    .nav li {
+        margin: ;
+        position: relative;
+    }
+
+    .nav li:hover {
+        color: white;
+    }
+
+    .nav li a {
+        font-size: 15px;
+        background-color: none;
+        color: orange;
+    }
+
+    .cpyrt {
+        font-size: 15px;
+        height: 5vh;
+        vertical-align: center;
+        top: 200px;
+    }
+
+
+    .ico,
+    .logotxt,
+    .sub,
+    .btn {
+        display: none;
+    }
+
+    .nav .ico2 {
+        display: inline-block;
+        position: absolute;
+        height: 25vh;
+        top: -70%;
+        left: 2%;
+        padding: inherit;
+    }
+
+    .bagtxt {
+        color: white;
+        font-size: 211px;
+        position: relative;
+        top: -477px;
+        opacity: 20%;
+        left: -9px;
+    }
+
+    h1 {
+        font-size: 103px;
+        top: 60%;
+        left: 10px;
+    }
+
+    span {
+        color: yellow;
+    }
+
+    .header {
+        padding: 25px;
+        margin: 25px;
+        width: 390px;
+        font-size: 28px;
+    }
+
+    .header .line {
+        position: absolute;
+        left: 45px;
+    }
+
+    .cpyrt {
+        width: 100%;
+        color: orangered;
+        font-family: sans-serif;
+        text-align: center;
+        position: relative;
+        top: 40%;
+        height: 30px;
+        font-family: 'PT Serif Caption', serif;
+
+    }
+
+    .ftrico {
+        height: 20vh;
+        position: relative;
+        top: -30px;
+        margin: 10px;
+        display: none;
+    }
+
+    .cont {
+        margin: 24px 46px;
+        padding: 0px 10px 20px 1px;
+        width: 92%;
+        font-size: 26px;
+        text-align: justify;
+    }
+
+    .intro {
+        height: 80vh;
+        width: 100%;
+        background-color: transparent;
+        margin: 0px 0px -30px 0px;
+    }
+
+    .intro .introimg3 {
+        display: grid;
+        position: inherit;
+        height: 80vh;
+        width: 100%;
+    }
+
+    .introimg2 {
+        display: none;
+    }
+
+    .cb {
+        position: relative;
+        top: 5%;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .cb1,
+    .cb2,
+    .cb3,
+    .cb4 {
+        display: block;
+        background-image: linear-gradient(#EE0979, #FF6A00);
+        height: 15vh;
+        width: 80%;
+        display: inline-block;
+        border-radius: 12px;
+        margin: 15px 40px 0px 40px;
+
+    }
+
+    .cmnt {
+        height: 80vh;
+        background-color: bisque;
+
+    }
+
+    .cb5,
+    .cb6 {
+        display: none;
+    }
+
+    .wave {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    body {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    marquee {
+        background-color: yellow;
+        height: 5vh;
+        text-align: center;
+        display: flex;
+    }
+
+    .wave {
+        display: none;
+    }
+    .cnctme .cont
+{
+    position: relative;
+    display: ;
+    width: auto;
+}
+
+    .loader-wraper {
+        position: fixed;
+        top: 8px;
+        left: 8px;
+        margin: 0px 10px 0px -10px;
+        justify-content: center;
+        background-color: #0009;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        color: white;
+        overflow-y: hidden;
+        animation: h4anim 2s ease;
+        display: none;
+    }
+
+    .cont {
+        margin: auto;
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .intro .socioico {
+        position:fixed;
+        justify-content: center;
+        align-content: center;
+        height: auto;
+        width: 100%;
+        margin: 0px;
+        z-index: 10;
+        top: 85%;
+        left: auto;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+
+    .socioico li {
+        list-style: none;
+        margin: 20px;
+        display: flex;
+    }
+
+    .socioico a {
+        font-size: 30px;
+        padding: 2px;
+        transition: 1.2s ease-in;
+        cursor: pointer;
+        color: black;
+    }
+
+    .navbar h6 {
+        font-family: sans-serif;
+        font-size: 15px;
+        position: fixed;
+        top: 80%;
+        display: none;
+    }
+
+
+
+
+    .pbox p {
+        font-size: 18px;
+        text-transform: capitalize;
+        text-shadow: 2px 5px 10px;
+
+    }
+
+    .nav li:hover {
+        border: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .popbox {
+        background: ;
+        height: 120px;
+        width: 90%;
+        margin: auto;
+        border-radius: 8px;
+        margin: 5px 10px 5px 10px;
+        position: relative;
+        top: -25px;
+        display: block;
+        left: -50px;
+
+    }
+
+    .popbox a {
+        text-decoration: none;
+    }
+
+    .btn2 {
+        display: block;
+        text-align: center;
+        color: white;
+        border: 2px solid red;
+        height: 40px;
+        width: 200px;
+        margin: 0px 20px 15px 20px;
+        border-radius: 0px;
+        background-color: rgba(214, 107, 65, 0.798);
+        position: relative;
+        top: 15px;
+        left: 110px;
+        font-size: 22px;
+        text-transform: uppercase;
+
+    }
+
+    .btn2:hover {
+        font-size: 25px;
+        background-color: red;
+        text-shadow: 01px 0px 5px;
+        border: 2.5px solid white;
+    }
+
+    .closeico2 {
+        position: relative;
+        top: -120px;
+        left: 20px;
+
+    }
+
+    .bagtxt {
+        font-size: 100px;
+        top: -220px;
+        left: 0px;
+        position: relative;
+        color: white;
+    }
+
+    h1 {
+        font-size: 50px;
+        top: -100px;
+        left: 0px;
+        position: relative;
+    }
+
+    .about {
+        padding: 10px;
+        margin: 20px 60px;
+        width: 321px;
+        font-size: 60px;
+    }
+
+    .content {
+        margin: 40px 60px;
+        padding: 10px;
+        width: 740px;
+        font-size: 40px;
+    }
+
+    .nav .ico2 {
+        display: inline-block;
+        position: absolute;
+        height: 30vh;
+        top: -70%;
+        left: 26%;
+        margin: 1px 10px 0px 10px;
+        transition: 0.5s;
+        height: 25vh;
+    }
+
+    .nav {
+        position: fixed;
+        width:100%;
+        display: ;
+        z-index: 10;
+    }
+
+    .nav li {
+        position: relative;
+        top: 50px;
+        display: block;
+        margin: 50px 20px 10px 20px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nav li a {
+        font-size: 20px;
+        background-color: transparent;
+        color: black;
+    }
+
+    .nav li a:hover {
+        color: orangered;
+        background: none;
+        border: 2px solid red;
+        padding: 10px;
+
+    }
+
+    .nav .active {
+        color: orangered;
+        border: 2px solid red;
+        padding: 10px;
+    }
+
+    .navbar {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        align-content: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        opacity: 0%;
+        display:none;
+        overflow: hidden;
+    }
+
+    #closeico {
+        position: absolute;
+        top: 36px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .line1,
+    .line2 {
+        background-color: orangered;
+        height: 2px;
+        width: 30px;
+        display: ;
+    }
+
+    .line3,
+    .line4,
+    .line5 {
+        background-color: orangered;
+        height: 3px;
+        width: 26px;
+        display: ;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    #menu {
+        cursor: pointer;
+    }
+
+    .line1 {
+        transform: rotateZ(45deg);
+        animation: line1 0.5s;
+    }
+
+    .line2 {
+        transform: rotateZ(-45deg);
+        animation: line2 0.5s;
+    }
+
+    @keyframes line1 {
+        from {
+            transform: rotateZ(0deg);
+        }
+
+        to {
+            transform: rotateZ(45deg);
+        }
+    }
+
+    @keyframes line2 {
+        from {
+            transform: rotateZ(0deg);
+        }
+
+        to {
+            transform: rotateZ(-45deg);
+        }
+    }
+
+    .nav .left .navbtn {
+        padding: 10px;
+        background: none;
+        width: 0px;
+        height: 0px;
+        color: ;
+        position: absolute;
+        left: 15px;
+    }
+
+    .pbox .buy-now {
+        height: 8vh;
+        font-size: 20px;
+        text-align: center;
+        top: 35%;
+        display: flex;
+        justify-content: center;
+        left: 47px;
+        margin: 20px 10px 0px 10px;
+        position: relative;
+    }
+
+    .pbox a {
+        text-decoration: none;
+    }
+
+    .box1 a,
+    .box2 a,
+    .box3 a {
+        font-size: 15px;
+    }
+
+    .box1 .cnct,
+    .box2 .cnct,
+    .box3 .cnct {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: auto;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .box1 .cnct:hover,
+    .box2 .cnct:hover,
+    .box3 .cnct:hover {
+        font-size: 16px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        padding: 10px;
+        margin: 30px 20px;
+        height: auto;
+        width: 90%;
+        display: grid;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.5s ease;
+        border-radius: 6px;
+        box-shadow: 0px 5px 10px 2px black;
+
+    }
+
+    .box1:hover,
+    .box2:hover,
+    .box3:hover,
+    .box4:hover {
+        border-radius: 8px;
+        box-shadow: none;
+    }
+
+    .cb {
+        position: relative;
+        top: 5%;
+    }
+
+    .cb1,
+    .cb2,
+    .cb3,
+    .cb4 {
+        display: block;
+        background-image: linear-gradient(#EE0979, #FF6A00);
+        height: 15vh;
+        width: 60%;
+        display: inline-block;
+        border-radius: 12px;
+        margin: 15px 10px 0px 10px;
+
+    }
+
+    .cmnt {
+        height: 80vh;
+        background-color: bisque;
+
+    }
+
+    .cb5,
+    .cb6 {
+        display: none;
+    }
+
+    .active {
+        color: white;
+        background-color: orangered;
+    }
+
+    .cpyrt {
+        font-size: 12px;
+        height: 5vh;
+        vertical-align: center;
+        top: 75px;
+        position: absolute;
+    }
+
+    @keyframes mynav {
+        from {
+            opacity: 0%;
+        }
+
+        to {
+            opacity: 100%;
+        }
+    }
+
+    @keyframes closemenu {
+        from {
+            opacity: 100%;
+        }
+
+        to {
+            opacity: 0%;
+        }
+    }
+
+    .introimg2 {
+        display: none;
+    }
+
+    .intro .introimg3 {
+        height: 90vh;
+        position: static;
+        width: 100%;
+        top: 66px;
+
+    }
+
+    .header {
+        color: black;
+        padding: 10px;
+        margin: 10px;
+        width: 168px;
+        font-size: 25px;
+    }
+
+    .header .line {
+        left: 20px;
+    }
+
+    .feat h5 {
+        font-size: 28px;
+        text-align: center;
+        font-family: monospace
+    }
+
+    .feat li {
+        font-size: 15px;
+        margin: 10px;
+        list-style: disc;
+    }
+
+    .pbox .mtext {
+        height: 15vh;
+        width: 100%;
+        background-color: yellow;
+        border-radius: 8px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 22px 10px 22px -3px;
+    }
+
+    .pbox .mtext q {
+        margin: 0px 0px 0px 7px;
+        font-size: 17px;
+        font-family: cursive;
+        background-color: yellow;
+    }
+footer
+    {
+    top:auto;
+    }
+footer .socioico
+{
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 0%;
+    left: 24%;
+    margin: auto;
+
+}
+footer .socioico i
+{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    margin: -20px;
+}
+
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .pbox .box1,
+    .pbox .box2,
+    .pbox .box3 {
+        width: 254px;
+        height: auto;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .cont {
+        width: 274px;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .box1 h3,
+    .box2 h3,
+    .box3 h3 {
+        font-size: 18px;
+        margin: 5px;
+    }
+        .cnctme .cont
+{
+    position: relative;
+    margin: 30px 0px 10px 0px;
+    width: auto;
+}
+     .cont .fa, .fa
+    {
+        font-size: 15px;
+    }
+ .cnctme .cont a
+    {
+        font-size: 15px;
+    }
+
+    .intro .socioico {
+        position: fixed;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        z-index: 10;
+        left: auto;
+        overflow: hidden;
+        opacity: 100%;
+    }
+
+    .socioico li {
+        margin: 10px;
+    }
+
+    .navbar h6 {
+        font-family: sans-serif;
+        font-size: 10px;
+        position: relative;
+        top: 10%;
+    }
+
+    .cont {
+        width: auto;
+        font-size: 13px;
+        margin: 0px 7px 0px 15px;
+    }
+    .box1 .cnct,
+    .box2 .cnct,
+    .box3 .cnct {
+        margin: auto;
+    }
+
+    .box1 a,
+    .box2 a,
+    .box3 a {
+        font-size: 12px;
+    }
+
+    .cpyrt {
+        background-color: transparent;
+        position: relative;
+        top: 20%;
+    }
+
+    /*   .box4 a  
+        {
+            position: absolute;
+            top: 97%;
+            font-size: 1px;
+            color: orangered;
+            display: flex;
+           left: 70px;
+        }*/
+    .pbox .feat li {
+        font-size: 13px;
+    }
+
+    .bagtxt {
+        font-size: 80px;
+        top: -160px;
+        left: 0px;
+        position: relative;
+        color: white;
+    }
+
+    .wave {
+        display: none;
+    }
+
+    .pbox .mtext {
+        height: 15vh;
+        width: 100%;
+        background-color: yellow;
+        border-radius: 8px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 22px 10px 22px -3px;
+    }
+
+    .pbox .mtext q {
+        margin: 0px 0px 0px 7px;
+        font-size: 17px;
+        font-family: cursive;
+        background-color: yellow;
+    }
+    footer
+    {
+     top:auto;
+    }
+    footer .cpyrt
+    {
+        top:50px;
+    }
+    footer .socioico
+{
+    display: flex;
+    float: right;
+    position: absolute;
+    top: -25%;
+    left: 28%;
+    margin: auto;
+
+}
+footer .socioico i
+{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+}
