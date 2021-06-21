@@ -59,32 +59,22 @@ body
     z-index: -1;
     height: 0;
     width: 0;
-    background: radial-gradient(circle,#e94498,#b81568);
-    transition: 0.3s ease;
-    
-    animation: example 5s linear 2s infinite alternate;
+    transition: 0.5s ease;
 }
-@keyframes example {
-    0%   {background-color:red;}
-    25%  {background-color:yellow;}
-    50%  {background-color:blue;}
-    75%  {background-color:green;}
-    100% {background-color:red;}
-  }
 .change-bg
 {
     border-radius: 50%;
     height: 790px;
     width: 790px;
     transform: translate(-60%,-30%);
-    animation: example 5s linear 2s infinite alternate;
+    animation: example 5s linear .1s infinite alternate;
 }
 @keyframes example {
     0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    25%  {background-color: radial-gradient(circle,#e94498,#b81568);top:0px;}
+    50%  {background-color: radial-gradient(circle,#b1647d,#967d9e); left:200px; top:200px;}
+    75%  {background-color: radial-gradient(circle,#06beb6 ,#48b1bf); left:0px; top:200px;}
+    100% {background-color: radial-gradient(circle,#eb3349 ,#f45c43); left:0px; top:0px;}
   }
 .menu
 {
