@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      background: #F7C851;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    .icon {
+      color: white;
+      font-size: 25px;
+      padding: 5px;
+      font-weight: 700;
+    }
+
+    .nav .navmenu {
+      list-style: none;
+      padding: 10px;
+    }
+
+    .navmenu li,
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: #413ADA;
+      font-weight: 600;
+      margin: 2px 5px;
+    }
+
+    .intro {
+      background-image: url('/images/background-img.webp');
+      background-attachment: fixed;
+      height: 95vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text {
+      height: 300px;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+
+    }
+
+    .text .intro-text {
+      font-size: 60px;
+      font-weight: 800;
+      color: #413ADA;
+    }
+
+    .text .sup-text {
+      font-size: 36px;
+      font-weight: 600;
+      color: #F47A62;
+    }
+
+    .intro a {
+      text-decoration: none;
+      padding: 10px 60px;
+      margin: 30px 0;
+      color: white;
+      background-color: #413ADA;
+    }
+
+    .qoute-box {
+      height: 70vh;
+      width: 100%;
+      position: relative;
+      background-color: #413ADA;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .qicon {
+      width: 50px;
+      margin-bottom: 25px;
+    }
+
+    .qoute-cont .main-txt {
+      display: block;
+      margin: auto;
+      width: 400px;
+      font-weight: 600;
+    }
+
+    .qoute-cont .sup-txt {
+      display: block;
+      margin: auto;
+      width: 40%;
+      font-weight: 200;
+    }
+
+    .qoute-box a {
+      border: 1px solid white;
+      padding: 10px 30px;
+      margin: 20px 0px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .qoute-box a:hover {
+      background-color: #251f96;
+      border: 2px solid #413ADA;
+      transition: border .3s ease-in;
+    }
+
+    .imgbox {
+      background-image: url('/images/img-box.webp');
+      height: 70vh;
+      width: 100%;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .subcat {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      position: relative;
+    }
+
+    .cat {
+      height: 60vh;
+      width: 50%;
+         
+    }
+
+    .subcat .sci {
+      background-color: #0EC167;
+      background-image: url(/images/sci.webp);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+    }
+
+    .subcat .tech {
+      background-color: #F47A62;
+      background-image: url(/images/tech.webp);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+    }
+
+    .subcat .eng {
+      background-color: #F8C853;
+      background-image: url(/images/engneering.webp);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+
+    .subcat .math {
+      background-color: #413ADA;
+      background-image: url(/images/math.webp);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+
+    .review {
+      width: 100%;
+      height: auto;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #413ADA;
+      position: relative;
+    }
+
+    .review h4 {
+      width: 30%;
+      font-size: 15px;
+      text-align: justify;
+    }
+    .photo-gal
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      margin: 20px;
+      
+    }
+    .photo-gal .gal-img
+    {
+      height: 260px;
+      width: 280px;
+      margin: 10px;
+      
+    }
+    .bmenu
+    {
+      display: none;
+    }
+    footer
+    {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 10vh;
+      text-align: center;
+      color: #fff;
+      background-color: #F8C853;
+    }
+    @media(max-width:760px) 
+    {
+      .photo-gal .gal-img
+    {
+      height: 200px;
+      width: 180px;
+      margin: 10px;
+      
+    }
+    .qoute-cont .sup-txt {
+      
+      width: 85%;
+      
+    }
+    .review h4 {
+      width: 50%;
+      font-size: 15px;
+      text-align: justify;
+    }
+    .cat {
+      height: 60vh;
+      width: 100%;
+         
+    }
+    .nav {
+      text-align: center;
+      flex-direction: column;
+    }
+    .nav .navmenu li
+    {
+   display: block;
+   padding: 15px;
+   font-size: 20px;
+   font-weight: 800px;
+    }
+    .bmenu
+    {
+      height: 50px ;
+      width: 50px;
+      display: block;
+     
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      cursor: pointer;
+    }
+    .line1,.line2,.line3
+    {
+      background-color: #EF613A;
+      height: 4px;
+      width: 32px;
+      margin: 6px;
+    }
+    .nav .navmenu {
+      display:none ;
+    }
+    
+    .show
+    {
+      display:block !important;
+      
+    }
+    }
+    
+  </style>
+  <title>MyCampusPlacement</title>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="icon">UrLearnE.</div>
+    <ul class="navmenu">
+      <li><a href="#">Home</a> </li>
+      <li><a href="#">About</a> </li>
+      <li><a href="#">Register</a> </li>
+      <li><a href="#">Courses</a> </li>
+      <li><a href="#">Contact</a> </li>
+      <li><a href="#">Profile</a> </li>
+    </ul>
+    <div class="bmenu" >
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </div>
+  <div class="intro">
+    <div class="text">
+      <h1 class="intro-text">Best Tech. Courses</h1>
+      <h4 class="sup-text">Free Bootcamp for Begineer</h1>
+        <a href="#">Register</a>
+    </div>
+  </div>
+  <div class="qoute-box">
+    <div class="qoute-cont">
+      <img src="/images/pencil.svg" alt="" class="qicon">
+      <h2 class="main-txt">
+        It's Never Too Early to Start Learning
+      </h2>
+      <h4 class="sup-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur cum deleniti sed
+        sit repellat soluta quis sequi in, est tempore, quod culpa nostrum sunt.</h4>
+      <a href="#">Learn More</a>
+    </div>
+  </div>
+  <div class="imgbox"></div>
+  <div class="subcat">
+    <div class="cat sci"></div>
+    <div class="cat tech"></div>
+    <div class="cat eng"></div>
+    <div class="cat math"></div>
+  </div>
+  <div class="review">
+    <h2>Camp Highlights</h2>
+    <h4>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click
+      me to add your own content and make changes to the font.
+
+    </h4>
+    <div class="photo-gal">
+      <img src="/images/person_1.jpg" alt="" class="gal-img">
+      <img src="/images/person_2.jpg" alt="" class="gal-img">
+      <img src="/images/person_3.jpg" alt="" class="gal-img">
+      <img src="/images/person_4.jpg" alt="" class="gal-img">
+    
+    </div>
+  </div>
+  <footer>
+   &copy; Copyright 2021 MyCampusPlacement
+  </footer>
+<script>
+var bugbtn=document.querySelector('.bmenu');
+var mitem =document.querySelector('.navmenu');
+bugbtn.addEventListener("click",expand)
+function expand()
+{
+mitem.classList.toggle('show')
+}
+</script>
+</body>
+
+</html>
