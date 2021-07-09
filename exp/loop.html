@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-color: rgb(32, 32, 32);
+           overflow: hidden;
+           font-family: 'Libre Baskerville', serif;
+        }
+        .container
+        {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .b1
+        {
+            background: rgba(255, 255, 255, 0.904);
+            height: 50vh;
+            width: 90vw;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            border-radius: 8px;
+            filter: blur(2);
+            
+        }
+        .b1 h4
+        {
+            
+            font-size: 20px;
+        }
+        .b2
+        {
+            position: absolute;
+            height: 45vh;
+            width: 87vw;
+            background: rgb(4, 4, 70);
+            bottom: 4px;
+            padding: 7px;
+            
+        }
+        .b2 #wlcm
+        {
+            color: rgb(14, 187, 100);
+            font-size: 20px;
+        }
+        .btn
+        {
+            position: absolute;
+            bottom: 20px; 
+        }
+        .btn input
+        {
+            padding: 20px 40px;
+            font-size: 1.5em;
+            background: transparent;
+            color: white;
+            outline: none;
+            border: 2px solid red;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="b1">
+    <h4>skynet@bash.user</h4>
+    <div class="b2">
+        <p id="wlcm"></p>
+        
+    </div>
+    <div class="btn">
+    <input type="button" value="Start" onclick="start()">
+    </div>
+</div>
+</div>
+    <script>
+        let name= prompt("Your Name?")
+       document.getElementById('wlcm').innerHTML=`>>Hi ${name} ! Welcome To Skynet Bash`;
+        function start()
+        {
+        var i=0,num=0;
+        while(i==0)
+        {
+            console.log("name");
+            num++;
+        }
+    }
+    </script>
+</body>
+</html>

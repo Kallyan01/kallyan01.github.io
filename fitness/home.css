@@ -221,7 +221,7 @@ body {
 }
 
 .intro {
-    background: url(image/PicsArt_01-27-06.54.45.png) no-repeat right bottom;
+    background: url(image/PicsArt_01-27-06.54.45.png) no-repeat right;
     background-color: #000;
    
     height: 120vh;
@@ -307,7 +307,7 @@ introimg2 {
     display: none;
 }
 
-h1 {
+.intro .name {
     color: white;
     position: absolute;
     font-size: 80px;
@@ -523,11 +523,7 @@ footer .socioico i
     display: none;
 
 }
-.pgal
-{
 
-    
-}
 
  .btn {
     color: white;
@@ -576,8 +572,8 @@ footer .socioico i
     display: none;
 }
 
-span {
-    color: yellow;
+.intro .name span {
+    color: yellow !important;
 }
 
 .navbar h6 {
@@ -718,9 +714,7 @@ span {
         left: 10px;
     }
 
-    span {
-        color: yellow;
-    }
+    
 
     .header {
         padding: 25px;
