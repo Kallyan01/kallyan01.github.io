@@ -1,0 +1,78 @@
+.main
+{
+    display: block;
+}
+.catbox
+{  
+    width: 100%;
+    background: #999;
+}
+.catlist li,a
+{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.catlist
+{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.catlist li
+{
+    padding: 10px;
+    background: crimson;
+}
+.catlist li  a{
+    text-decoration: none;
+    color: white;
+}
+.blogbox
+{
+    width: 90vw;
+    margin: auto;
+    
+}
+.text
+{
+    color: #000;
+}
+.blogpost
+{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: cornsilk;
+    padding: 100px 0;
+    border-radius: 8px ;
+}
+.blogpost img
+{
+    height: 20vh;
+}
+
+.text a
+{
+    text-decoration: none;
+    background: crimson;
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: #fff;
+}
+@media (max-width:760px)
+{
+    .blogpost
+{
+    padding: 200px 0;
+   
+}
+.blogpost img
+{
+height: 15vh;
+}
+}
+
