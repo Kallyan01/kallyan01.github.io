@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+body
+{
+   
+    background:#9171e3 url("desktop.png") no-repeat fixed right; 
+    background-size: contain;
+}
+.container .cont1
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 95vh;
+}
+.nav
+{
+    margin: 150px 0 0 0 ;
+}
+.nav .n1
+{
+  display: inline-block;
+width: 20px;
+height: 10px;
+background: #362958;
+border-radius: 17px;
+}
+.nav .n2
+{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #EFEAFF;
+    border-radius: 50%;
+}
+.txt
+{
+    width: 560px;
+height: 325px;
+}
+.headtxt h1
+{
+font-family: Gilroy;
+font-size: 66px;
+line-height: 76px;
+color:#fff;
+}
+.followtxt p
+{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color:#fff;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+.container .cont1
+{
+    width: 800px;
+    height: 95vh;
+   
+}
+.container .cont2
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    
+}
+.regform .form-txt
+{
+
+}
+.container .regform
+{
+    background: #fff;
+    width: 570px;
+height: 594px;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.regform .form-txt,.name,.email,.mobno,.btn
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.regform .form-txt
+{
+    text-align: center;
+}
+.regform .name input,.email input,.mobno input
+{
+    padding: 20px 20px;
+    width: 400px;
+    height: 20px;
+    font: 14px ;
+}
+.btn button
+{
+    background: #9C7AF5;
+    padding: 15px 50px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    width: 242px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.rdbtns
+{
+   
+    width: 400px;
+    padding: 20px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.rbtn1,.rbtn2
+{
+/* margin: 10px 0; */
+display: flex;
+align-items: center;
+}
+.rdbtns label
+{
+font-size: 14px;
+font-weight: 400;
+}
+.rdbtns .custom
+{
+    border: 2px solid #13C955;
+    border-radius:50% ;
+    height: 20px;
+    width: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 20px 5px ;
+    position: relative;
+    padding: 8px;
+}
+.custom .chkmark
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 10px;
+    width:10px ;
+    border-radius: 50%;
+    background: #13C955;
+    display: none;
+}
+.custom input:checked + .chkmark
+{
+    display: inline-block;
+}
+.custom input
+{
+    opacity: 0;
+}
+@media screen and (max-width:760px)
+{
+    body
+    {
+        background-image:none ;
+    }
+    .container .regform
+    {
+        padding: 20px;
+    }
+    .container .cont2
+    {
+        background: url("desktop.png") no-repeat; 
+        background-size: contain; 
+    width: 100%;
+    height: auto;
+     padding: 50px 25px;
+    }
+    .nav
+{
+    margin: 70px 0 0 0 ;
+}
+    .txt
+{
+    width: 80%;
+height: auto;
+}
+    .headtxt h1
+{
+    font-size: 55px;
+    line-height: 60px;
+}
+.regform .name input,.email input,.mobno input
+{
+    padding: 20px 20px;
+    width: 350px;
+    height: 20px;
+    font: 14px ;
+}
+.rdbtns
+{
+   
+    width: 350px;
+    padding: 20px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.followtxt p
+{
+margin-top: 20px;
+font-size: 18px;
+line-height: 21px;
+font-weight: 400;
+}
+}
+@media screen and (max-width:670px)
+{
+    .regform .name input,.email input,.mobno input
+    {
+        padding: 20px 20px;
+        width: 250px;
+        height: 18px;
+        font: 14px ;
+    }
+    .rdbtns
+    {
+       
+        width: 250px;
+        padding: 20px 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .headtxt h1
+    {
+        font-size: 45px;
+        line-height: 60px;
+    }
+}

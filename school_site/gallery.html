@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="style/style.css">
     <script src="script/script.js"></script>
     <title>About Us</title>
+    <style>
+        .gallery
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 10px;
+        }
+        .gallery img
+        {
+            height: 300px;
+            width: 300px;
+            margin: 10px;
+        }
+        .gallery img:hover
+        {
+            transform: scale(1.1);
+            transition: transform 0.5s ease-in-out;
+        }
+        
+    </style>
 </head>
 <body>
     <div class="navbar" >
@@ -17,8 +39,8 @@
             <ul class="menu-list" id="mnu">
                 <li ><a  href="index.html"> Home</a></li>
                 <li><a  href="aboutus.html"> About Us</a></li>
-                <li ><a class="active" href="#"> Courses</a></li>
-                <li ><a  href="gallery.html"> Gallery</a></li>
+                <li ><a  href="courses.html"> Courses</a></li>
+                <li ><a class="active" href="#"> Gallery</a></li>
                 <li>
                     <form action="" method="post">
                         <input class="stext" type="text" name="searchbox" id="" placeholder="Search Here">
@@ -33,5 +55,16 @@
             </div>
         
     </div>
+    <main>
+        <div class="gallery">
+            <img src="images/1.jpeg" alt="">
+            <img src="images/2.jpeg" alt="">
+            <img src="images/3.jpeg" alt="">
+            <img src="images/4.jpeg" alt="">
+            <img src="images/5.jpeg" alt="">
+            <img src="images/6.jpeg" alt="">
+            <img src="images/7.jpeg" alt="">
+        </div>
+    </main>
 </body>
 </html>

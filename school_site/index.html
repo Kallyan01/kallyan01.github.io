@@ -12,25 +12,29 @@
 </head>
 
 <body>
-    <div class="navbar" >
+    <div class="navbar">
         <div class="icon">
-            <h4>XYZ School</h4>
+            <h4>Dantan High School (H.S)</h4>
         </div>
-        
-            <ul class="menu-list" id="mnu">
-                <li ><a class="active" href="#"> Home</a></li>
-                <li><a href="aboutus.html"> About Us</a></li>
-                <li><a href="#"> Notice</a></li>
-                <li><a href="#"> Register</a></li>
-                <li><a href="courses.html"> Courses</a></li>
-                <li><a href="blog.html"> Blog</a></li>
-            </ul>
-            <div class="burger" onclick="bgrmnu()" ">
-                <div class="line line1"></div>
-                <div class=" line2"></div>
-                <div class="line line3"></div>
-            </div>
-        
+
+        <ul class="menu-list" id="mnu">
+            <li><a class="active" href="#"> Home</a></li>
+            <li><a href="aboutus.html"> About Us</a></li>
+            <li><a href="courses.html"> Courses</a></li>
+            <li><a href="gallery.html"> Gallery</a></li>
+            <li>
+                <form action="" method="post">
+                    <input class="stext" type="text" name="searchbox" id="" placeholder="Search Here">
+                    <input class="sbtn" type="submit" value="Search">
+                </form>
+            </li>
+        </ul>
+        <div class="burger" onclick="bgrmnu()" ">
+                <div class=" line line1"></div>
+        <div class=" line2"></div>
+        <div class="line line3"></div>
+    </div>
+
     </div>
     <div class="main" data-aos="zoom-in">
         <div class="txt">
@@ -38,13 +42,13 @@
             <h4>Let's go beyond the constrain of syllabus</h4>
             <a href="tel:+91 1800150023">Call Us</a>
         </div>
-        <div class="pic" >
+        <div class="pic">
             <img src="images/table.svg" alt="">
         </div>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
 </body>
 
