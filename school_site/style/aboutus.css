@@ -31,4 +31,19 @@
     display: grid;
     place-items: center;
 }
+input[type=file]
+{
+    display: none;
+}
+.img-cap-design
+{
+    border: 3px solid #fff;
+    color: white;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
 

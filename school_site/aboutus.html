@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style/aboutus.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="script/script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>About Us</title>
 </head>
 <body>
@@ -15,8 +17,8 @@
         <div class="icon">
             <h4>Dantan High School (H.S)</h4>
         </div>
-        <input type="file" name="image" accept="image/*" capture="environment">
-        <input type="file" name="image" accept="image/*" capture="user">
+       
+
             <ul class="menu-list" id="mnu">
                 <li ><a  href="index.html"> Home</a></li>
                 <li><a class="active" href="#"> About Us</a></li>
@@ -37,6 +39,13 @@
         
     </div>
     <div class="container">
+        <input type="file" name="image" id="img-cap" accept="image/*" capture="environment">
+        <label class="img-cap-design" for="img-cap">
+            <span class="material-icons">
+                add_a_photo
+                </span>
+           <p>Cilck</p>
+        </label>
         <div class="box">
             <div class="img" data-aos="fade-left">
               <img src="images/school_friends.svg" alt="">
